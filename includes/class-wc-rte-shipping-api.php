@@ -130,7 +130,7 @@ class WRRS_RTE_Shipping_API {
 		return $data;
 	}
 
-	public function shipping_simulation( $package = array(), $origin_data ) {
+	public function shipping_simulation( $package, $origin_data ) {
 		$header = array(
 			'Accept'        => 'application/json',
 			'Authorization' => 'Bearer ' . $this->token,
