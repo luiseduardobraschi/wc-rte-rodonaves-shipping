@@ -5,6 +5,20 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 class WRRS_RTE_Shipping_Method extends WC_Shipping_Method {
+
+	public $username;
+	public $password;
+	public $costumer_registration;
+	public $zip_origin;
+	public $city_id;
+	public $shipping_class_id;
+	public $additional_time;
+	public $fee_type;
+	public $fee;
+	public $debug;
+	public $show_simulator;
+	public $log;
+
 	/**
 	 * Constructor for your shipping class
 	 *

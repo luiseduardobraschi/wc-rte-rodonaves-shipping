@@ -22,6 +22,7 @@ class WRRS_RTE_Shipping_API {
 	protected $username = '';
 	protected $password = '';
 	protected $token = '';
+	protected $costumer_registration = '';
 
 	/**
 	 * API constructor.
