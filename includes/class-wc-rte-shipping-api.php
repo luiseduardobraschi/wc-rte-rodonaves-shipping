@@ -58,11 +58,11 @@ class WRRS_RTE_Shipping_API {
 	}
 
 	protected function refresh_token( $response ) {
-		if ( array_key_exists( 'Message', $response ) && $response[ 'Message' ] == 'Authorization has been denied for this request.' ) {
+		if ( array_key_exists( 'Message', $response ?? [] ) && $response[ 'Message' ] == 'Authorization has been denied for this request.' ) {
 			$this->get_token();
 			return true;
 		}
-		elseif ( array_key_exists( 'Message', $response ) ) {
+		elseif ( array_key_exists( 'Message', $response ?? [] ) ) {
 			echo esc_html( $response[ 'Message' ] );
 			return true;
 		}
@@ -118,7 +118,7 @@ class WRRS_RTE_Shipping_API {
 
 		$data = array(
 			'CustomerTaxIdRegistration' => $this->costumer_registration,
-			'OriginZipCode'             => $origin_data[ 'postcode' ],
+			'OriginZipCode'             => $this->only_numbers( $origin_data[ 'postcode' ] ),
 			'OriginCityId'              => $origin_data[ 'id' ],
 			'DestinationZipCode'        => $destination_data[ 'postcode' ],
 			'DestinationCityId'         => $destination_data[ 'id' ],
@@ -190,12 +190,10 @@ class WRRS_RTE_Shipping_API {
 		}
 
 		$data = array(
-			'id'       => $response[ 'CityId' ],
-			'name'     => $response[ 'CityDescription' ],
-			'state'    => $response[ 'UnitFederation' ][ 'Description' ],
-			'district' => $response[ 'District' ],
-			'street'   => $response[ 'Street' ],
-			'postcode' => $response[ 'ZipCode' ]
+			'id'       => $response[ 'Id' ],
+			'name'     => $response[ 'Description' ],
+			'state'    => $response[ 'UnitFederation' ],
+			'postcode' => $this->only_numbers( $zip_code ),
 		);
 
 		return $data;
