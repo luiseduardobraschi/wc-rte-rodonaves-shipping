@@ -11,7 +11,7 @@ class WRRS_RTE_Shipping_API {
 	 * @var string
 	 */
 	protected $get_token_url = 'https://01wapi.rte.com.br/token';
-	protected $get_city_id_url = 'https://01wapi.rte.com.br/api/v1/busca-por-cep';
+	protected $get_city_id_url = 'https://dne-api.rte.com.br/api/cities/byzipcode';
 	protected $simulate_url = 'https://01wapi.rte.com.br/api/v1/simula-cotacao';
 
 	/**
