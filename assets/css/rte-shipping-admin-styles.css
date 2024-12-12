@@ -1,0 +1,11 @@
+#woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items  div[id^="rte-meta_"] .rte-meta-table th,
+#woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items  div[id^="rte-meta_"] .rte-meta-table td{
+    line-height: 20px;
+    padding: 5px;
+    border: none;
+}
+#woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items div[id^="rte-meta_"] .rte-meta-table tr:first-child td,
+#woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items div[id^="rte-meta_"] .rte-meta-table tr:last-child td
+{
+    border: none;
+}

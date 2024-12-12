@@ -1,0 +1,41 @@
+@keyframes skeleton {
+    0% {
+        opacity: 1;
+    }
+    70% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#rte-shipping-calc {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    transition: .2s;
+}
+#rte-chipping-calc-form {
+    margin-bottom: 15px;
+}
+#rte-postcode {
+    margin-right: 10px;;
+}
+#rte-shipping-request {
+    font-weight: bold;
+  }
+#rte-shipping-result {
+    transition: .2s;
+}
+.rte-loader {
+    height: 20px;
+    background: #ddd;
+    margin-bottom: 5px;
+    animation: skeleton 2s infinite;
+}
+#rte-adversity , #rte-error{
+    font-weight: bold;
+    font-size: small;
+    color: red;
+}

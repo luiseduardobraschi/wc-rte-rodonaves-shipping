@@ -1,0 +1,275 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RTE Rodonaves Shipping\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-05 13:16+0000\n"
+"PO-Revision-Date: 2023-04-08 21:59+0000\n"
+"Last-Translator: \n"
+"Language-Team: Português do Brasil\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2\n"
+"X-Domain: wc-rte-rodonaves-shipping\n"
+
+#: views/wc-rte-shipping-cart-page.php:4
+msgid " working day(s)"
+msgstr " dias úteis."
+
+#: views/wc-rte-shipping-user-order-infos.php:5
+msgid " working day(s)."
+msgstr " dias úteis."
+
+#: includes/class-wc-rte-shipping-method.php:142
+msgid "Additional Days"
+msgstr "Dias adicionais"
+
+#: includes/class-wc-rte-shipping-method.php:144
+msgid "Additional days to the estimated delivery."
+msgstr "Dias adicionais para entrega estimada."
+
+#: views/wc-rte-shipping-user-order-infos.php:2
+msgid "Additional information's"
+msgstr "Informações adicionais"
+
+#: includes/class-wc-rte-shipping-method.php:127
+msgid "Adds shipping simulator automatically on the product page."
+msgstr "Adicionar simulador de frete automaticamente na página de produto."
+
+#: includes/class-wc-rte-shipping-method.php:66
+msgid "Any Shipping Class"
+msgstr "Qualquer Classe de Entrega"
+
+#: includes/class-wc-rte-shipping-method.php:93
+msgid "API RTE Rodonaves login"
+msgstr "Login da API da RTE Rodonaves"
+
+#: includes/class-wc-rte-shipping-method.php:99
+msgid "API RTE Rodonaves password."
+msgstr "Senha da API RTE Rodonavas."
+
+#: includes/class-wc-rte-shipping-method.php:105
+msgid "API RTE Rodonaves registered CPF or CNPJ."
+msgstr "CPF ou CNPJ registrado na API da RTE Rodonaves."
+
+#: views/wc-rte-shipping-product-page.php:6
+msgid "Calculate"
+msgstr "Calcular"
+
+#: includes/class-wc-rte-shipping-method.php:114
+msgid "City ID code"
+msgstr "Código da cidade"
+
+#: includes/class-wc-rte-shipping-method.php:117
+msgid "City ID is necessary to request API."
+msgstr "O código da cidade é necessário para a requisição da API."
+
+#: includes/class-wc-rte-shipping-method.php:165
+msgid "Debug Log"
+msgstr "Debug Log"
+
+#: views/wc-rte-shipping-extra-meta-admin.php:42
+msgid "Delivery Time:"
+msgstr "Tempo de envio:"
+
+#: includes/class-wc-rte-shipping-method.php:85
+msgid "Enable"
+msgstr "Habilitar"
+
+#: includes/class-wc-rte-shipping-method.php:167
+msgid "Enable logging"
+msgstr "Habilitar log de errors"
+
+#: includes/class-wc-rte-shipping-method.php:125
+msgid "Enable simulator"
+msgstr "Habilitar simulador"
+
+#: includes/class-wc-rte-shipping-method.php:87
+msgid "Enable this shipping."
+msgstr "Habilitar esta forma de entrega."
+
+#: includes/class-wc-rte-shipping-method.php:160
+msgid "Enter an value, e.g. 2.50. Leave blank to disable."
+msgstr ""
+"Coloque um valor em dinheiro, ex.: 2.50. Deixe em branco para desativar."
+
+#: includes/class-wc-rte-shipping-method.php:151
+msgid "Enter handling fee type, if is percent or solid value."
+msgstr ""
+"Selecione qual calculo para taxa de manuseio, se é porcentagem ou valor "
+"sólido."
+
+#: wc-rte-rodonaves-shipping.php:47
+msgid "Entry a correct postcode."
+msgstr "Digite a CEP válido."
+
+#: views/wc-rte-shipping-user-order-infos.php:4
+msgid "Estimated shipping time after payment confirmation:"
+msgstr "Tempo estimado para entrega depois da confirmação de pagamento:"
+
+#: wc-rte-rodonaves-shipping.php:45
+msgid "Estimated Time"
+msgstr "Tempo Estimado"
+
+#: views/wc-rte-shipping-cart-page.php:2
+msgid "Estimated time: "
+msgstr "Tempo estimado: "
+
+#: includes/class-wc-rte-shipping-method.php:176
+msgid "Get City ID"
+msgstr "Buscar código da cidade"
+
+#: includes/class-wc-rte-shipping-method.php:158
+msgid "Handling Fee"
+msgstr "Taxa de manuseio"
+
+#: includes/class-wc-rte-shipping-method.php:149
+msgid "Handling Fee Type"
+msgstr "Tipo de taxa de manuseio"
+
+#: views/wc-rte-shipping-extra-meta-admin.php:22
+msgid "Height:"
+msgstr "Altura:"
+
+#: includes/class-wc-rte-shipping-method.php:135
+msgid "If necessary, select a shipping class to apply this method."
+msgstr ""
+"Caso necessário, selecione uma classe de entrega para aplicar a este método."
+
+#: includes/class-wc-rte-shipping-method.php:128
+msgid "If necessary, you can disable and use the shortcode below:"
+msgstr "Caso necessário, você pode desabilitar e usar o shortcode abaixo:"
+
+#: includes/class-wc-rte-shipping-method.php:119
+msgid ""
+"If you don&lsquo;t know what is a ID, fill all fields above and click here: "
+msgstr ""
+"Se você não sabe qual o código, preencha todos os campos acima e clique aqui:"
+" "
+
+#: views/wc-rte-shipping-extra-meta-admin.php:14
+msgid "Length:"
+msgstr "Comprimento:"
+
+#: includes/class-wc-rte-shipping-method.php:169
+msgid "Log %s events, such as WebServices requests."
+msgstr "Log %s de eventos, como WebServices requests."
+
+#: includes/class-wc-rte-shipping-method.php:91
+msgid "Login"
+msgstr "Login"
+
+#: wc-rte-rodonaves-shipping.php:49
+msgid ""
+"Maybe you need to calculate shipping again after change product variation or "
+"quantity."
+msgstr ""
+"Talvez você precisa recalcular a entrega depois de mudar a variação do "
+"produto ou a quantidade."
+
+#: includes/wc-rte-shipping-functions.php:64
+#: includes/wc-rte-shipping-functions.php:65
+msgid "No information."
+msgstr "Sem informação."
+
+#: includes/class-wc-rte-shipping-method.php:67
+msgid "No Shipping Class"
+msgstr "Nenhuma Classe de Entrega"
+
+#: includes/class-wc-rte-shipping-method.php:108
+msgid "Origin postcode"
+msgstr "CEP de origem"
+
+#: includes/class-wc-rte-shipping-method.php:97
+msgid "Password"
+msgstr "Senha"
+
+#: includes/class-wc-rte-shipping-method.php:154
+msgid "percent"
+msgstr "porcentagem"
+
+#. Description of the plugin
+msgid "Plugin add RTE Rodonaves Shippging to WooCommerce."
+msgstr "Plugin adiciona o sistema de frete RTE Rodonaves ao WooCommerce."
+
+#: wc-rte-rodonaves-shipping.php:48
+msgid "Postcode"
+msgstr "CEP"
+
+#: includes/class-wc-rte-shipping-method.php:110
+msgid "Postcode from where the requests are sent."
+msgstr "CEP de onde as solicitações são enviadas."
+
+#: includes/class-wc-rte-shipping-method.php:103
+msgid "Registered CPF or CNPJ"
+msgstr "CPF ou CNPJ registrado"
+
+#: includes/class-wc-rte-shipping-method.php:118
+msgid "Remember to update City ID if you change postcode."
+msgstr ""
+"Lembre-se de atualizar o código da cidade quando mudar o CEP de origem."
+
+#. Name of the plugin
+#: includes/class-wc-rte-shipping-method.php:17
+#: includes/class-wc-rte-shipping-method.php:21
+msgid "RTE Rodonaves Shipping"
+msgstr "RTE Rodonaves Transportadora"
+
+#: includes/class-wc-rte-shipping-method.php:18
+msgid "RTE Rodonaves shipping integration"
+msgstr "RTE Rodonaves integração de frete"
+
+#: includes/class-wc-rte-shipping-method.php:133
+msgid "Shipping Class"
+msgstr "Classe de Entrega"
+
+#: includes/class-wc-rte-shipping-method.php:123
+msgid "Shipping Simulator"
+msgstr "Simulador de Frete"
+
+#: views/wc-rte-shipping-product-page.php:3
+msgid "Simulate your shipping: "
+msgstr "Simule seu frete: "
+
+#: includes/class-wc-rte-shipping-method.php:153
+msgid "solid"
+msgstr "sólido"
+
+#: includes/class-wc-rte-shipping-method.php:209
+msgid "Some necessary field in the plugin is not configured."
+msgstr "Algum dos campos necessários não esta configurado."
+
+#: views/wc-rte-shipping-extra-meta-admin.php:38
+msgid "Total Weight:"
+msgstr "Peso Total:"
+
+#: includes/class-wc-rte-shipping-method.php:188
+msgid "View logs."
+msgstr "Ver logs."
+
+#: views/wc-rte-shipping-extra-meta-admin.php:10
+msgid "Weight:"
+msgstr "Peso:"
+
+#: views/wc-rte-shipping-extra-meta-admin.php:18
+msgid "Width:"
+msgstr "Largura:"
+
+#: wc-rte-rodonaves-shipping.php:46
+msgid "working day(s)"
+msgstr "dias úteis"
+
+#: includes/wc-rte-shipping-functions.php:134
+msgid "Wrong data sended."
+msgstr "Dados incorretos enviados."
+
+#: wc-rte-rodonaves-shipping.php:69
+msgid ""
+"You need fill, Login, Password, Registered CPF or CNPJ and Origin postcode "
+"correctly, for it work"
+msgstr ""
+"Você precisa preencher, Login, Senha, CPF ou CNPF registrado e CEP de origem "
+"corretamente, para isso funcionar."
