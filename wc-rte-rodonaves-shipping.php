@@ -3,7 +3,7 @@
  * Plugin Name: 	RTE Rodonaves Shipping
  * Plugin URI: 		https://wordpress.org/plugins/wc-rte-rodonaves-shipping/
  * Description: 	Plugin add RTE Rodonaves Shippging to WooCommerce.
- * Version: 		0.2.0
+ * Version: 		0.2.1
  * Author: 			Paulo Cezario
  * License:			GPLv2 or later
  * Text Domain: 	wc-rte-rodonaves-shipping
