@@ -33,7 +33,8 @@ function wrrs_get_city_id_callback() {
 }
 
 function wrrs_add_order_meta( $order, $data ) {
-	$shipping_method = reset( $order->get_items( 'shipping' ) )->get_method_id();
+	$shipping_methods = $order->get_shipping_methods();
+	$shipping_method = reset( $shipping_methods )->get_method_id();
 
 	if ( $shipping_method == 'rte-rodonaves' ) {
 		$have_meta     = WC()->session->get( 'rte_extra_meta' );
@@ -53,7 +54,8 @@ function wrrs_show_shipping_time_on_cart( $method, $index ) {
 
 function wrrs_show_admin_shipping_infos( $item_id, $item, $product ) {
 	$order           = wc_get_order( $item[ 'order_id' ] );
-	$shipping_method = reset( $order->get_items( 'shipping' ) )->get_method_id();
+	$shipping_methods = $order->get_shipping_methods() ;
+	$shipping_method = reset( $shipping_methods )->get_method_id();
 
 	if ( $shipping_method == 'rte-rodonaves' ) {
 		$extra_meta    = $order->get_meta( '_rte_extra_meta' );
@@ -75,7 +77,8 @@ function wrrs_show_admin_shipping_infos( $item_id, $item, $product ) {
 }
 
 function wrrs_show_client_additional_infos( $order ) {
-	$shipping_method = reset( $order->get_items( 'shipping' ) )->get_method_id();
+	$shipping_methods = $order->get_shipping_methods() ;
+	$shipping_method = reset( $shipping_methods )->get_method_id();
 	$delivery_time   = $order->get_meta( '_delivery_time' );
 
 	if ( $shipping_method == 'rte-rodonaves' ) {
