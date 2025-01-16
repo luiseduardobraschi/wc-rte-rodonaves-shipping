@@ -175,14 +175,14 @@ class WRRS_RTE_Shipping_API {
 
 		$url = $this->get_city_id_url . '?zipCode=' . $this->only_numbers( $zip_code );
 
-		$response = $this->request_api( $url, 'GET', $header, '' );
+		$response = $this->request_api( $url, 'GET', $header, '' ) ?? [];
 
 		if ( $this->refresh_token( $response ) ) {
 			$header   = array(
 				'Accept'        => 'application/json',
 				'Authorization' => 'Bearer ' . $this->token,
 			);
-			$response = $this->request_api( $url, 'GET', $header, '' );
+			$response = $this->request_api( $url, 'GET', $header, '' ) ?? [];
 		}
 
 		if ( array_key_exists( '0', $response ) && $response[ '0' ][ 'Message' ] == 'CEP não encontrado' ) {
